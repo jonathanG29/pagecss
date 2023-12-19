@@ -5,83 +5,106 @@
 }
 
 .container{
-    background-color: #1F2937;
-}
-
-.headerLogo{
-    font-size: 24px;
-    color: #F9FAF8;
-    padding: 15px
-}
-
-.navbar a{
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color:#1F2937 ;
 }
 
 .logoNav{
-    padding: 5px;
-    display: flex;
+display: flex;
+margin-left: 0;
 }
 
-.logoNav a{
-    padding: 10px;
-    margin: 8px;
-
+.logoNav img{
+    height: 100px;
+    width: 100px;
 }
 
-.cotainertwo{
+.navbar a{
+    padding: 15px;
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.secon-hero{
+    padding: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
 
-
-.two-container .title{
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: bold; 
+.two-container{
+    width: 450px;
 }
 
 .two-container p{
-    font-size:  18px;
-    color: #e5e7eb;
-}
-
-.sub-container{
-    background-color: red;
-    display: flex;
-}
-
-.sub-container span{
-    width: 274px;
-    height: 150px;
-    text-align: center;
-}
-
-.two-container button{
+    font-size: 18px;
     color: #E5E7EB;
-    background-color: rgba(0, 0, 252, 0.555);
-    padding: 7px;
-    border: 10px;
-    border-radius: 2px;
+    padding: 2px;
 }
-/* section 2 */
 
+.button {
+    background-color: #3882f6;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 8px;
+    color: white;
+    width: 120px;
+    height: 33px;
+    margin: 4px;
+}
 
+.sub-container img{
+    /* padding-right: 280px; */
+    width: 450px;
+    height: 200px;
+    border-radius: 15px;
+}
 
+.two-container span{
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
 
+.information{
+    display: flex;
+    flex-direction: column;
+}
 
-.section2 p{
+.header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.img-cont{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.section2 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    flex-direction: row;
+    padding: 40px;
+}
+
+/* .cont{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.img-cont img{
+    border-radius: 25px;
+    border: solid 7px #84B0F9;
+    margin: 25px
+}
+
+.img-cont p{
+    width: 160px;
+    font-size: 20px;
 }
