@@ -4,6 +4,12 @@
     font-family: roboto;
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container{
     display: flex;
     /* align-items: center; */
@@ -107,4 +113,60 @@ margin-left: 0;
 .img-cont p{
     width: 160px;
     font-size: 20px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 40px
+}
+
+.quote span{
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
+}
+
+.footer{
+    background-color: #1f2937;
+    width: 100%;
+    padding: 15px 10px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.comment{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 250px;
+}
+
+.comment p{
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1F2937;
+    text-align: left;
+}
+
+.hero-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.action{
+    display: flex;
+    width: 875px;
+    height: 120px;
+    background-color: #3882f6 ;
+}
+
+.action span p{
+    flex-direction: column;
 }
